@@ -1,0 +1,8 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  i18n_domain="allen.ploneconf2010">
+
+  <include file="profiles.zcml" />
+  <include package=".google" />
+
+</configure>

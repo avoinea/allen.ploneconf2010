@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins"
+        meta_type="Plone Skins Tool"
+        allow_any="False"
+        cookie_persistence="False"
+        request_varname="plone_skin">
+
+ <object name="allen_ploneconf"
+         meta_type="Filesystem Directory View"
+         directory="allen.ploneconf2010:skins/allen_ploneconf"/>
+
+ <skin-path name="*">
+  <layer insert-after="custom"
+         name="allen_ploneconf"/>
+ </skin-path>
+
+</object>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_catalog" meta_type="Plone Catalog Tool">
+ <index name="isbn" meta_type="FieldIndex">
+  <indexed_attr value="isbn"/>
+ </index>
+ <index name="publisher" meta_type="FieldIndex">
+  <indexed_attr value="publisher"/>
+ </index>
+ <index name="rating" meta_type="FieldIndex">
+  <indexed_attr value="rating"/>
+ </index>
+ <column value="isbn"/>
+ <column value="publisher"/>
+ <column value="rating"/>
+</object>

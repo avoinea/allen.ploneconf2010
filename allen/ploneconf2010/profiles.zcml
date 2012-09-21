@@ -1,0 +1,24 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+  xmlns:five="http://namespaces.zope.org/five"
+  xmlns:cmf="http://namespaces.zope.org/cmf"
+  i18n_domain="allen.ploneconf2010">
+
+  <five:registerPackage package="." initialize=".initialize" />
+  <genericsetup:registerProfile
+    name="default"
+    title="Allen PloneConf 2010"
+    directory="profiles/default"
+    description="Plone Conf 2010"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    />
+
+  <cmf:registerDirectory
+    name="skins"
+    directory="skins"
+    recursive="True"
+    />
+
+</configure>

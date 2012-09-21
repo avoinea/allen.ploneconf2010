@@ -1,0 +1,13 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  i18n_domain="allen.ploneconf2010">
+
+  <browser:page
+    for="Products.Archetypes.interfaces.IBaseFolder"
+    name="google-books.import"
+    class=".books.Books"
+    permission="cmf.ModifyPortalContent"
+    />
+
+</configure>
