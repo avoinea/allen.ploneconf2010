@@ -4,15 +4,13 @@ EEA Faceted Navigation
 
 .. sidebar:: Continuous integration
 
- EEA:
   .. image:: http://ci.eionet.europa.eu/job/eea.facetednavigation-www/badge/icon
     :target: http://ci.eionet.europa.eu/job/eea.facetednavigation-www/lastBuild
-
- Plone:
   .. image:: http://ci.eionet.europa.eu/job/eea.facetednavigation-plone4/badge/icon
     :target: http://ci.eionet.europa.eu/job/eea.facetednavigation-plone4/lastBuild
 
-
+Introduction
+============
 The EEA Faceted Navigation **(FacetedNav)** gives you a
 **very powerful interface to improve search within large collections of items.**
 No programming skills are required by the website manager to configure the
